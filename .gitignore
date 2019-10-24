@@ -1,0 +1,27 @@
+# Ignore all these generated or environment artifacts 
+# ending slash will ignore all target folders (not just in the root)
+target/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.logs
+*.iml
+.idea
+.settings/
+.classpath
+.project
+
+#ignore twitter credentials file
+twitter4j.properties
+
+#Visual Studio settings files
+.vscode/
+
+# ignore all . folders
+.*/
