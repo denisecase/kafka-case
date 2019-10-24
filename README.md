@@ -8,6 +8,21 @@ Source: <https://github.com/denisecase/kafka-api>
 
 Goal: Create a new CustomProducer to auto-generate and send at least 10 messages to the topic. You can create a random word generator, cycle through a list sending one message every second, or use Facebook or Twitter APIs to access live content. Experiment - the goal is to be comfortable adding external messaging to any Java app.
 
+## Recommended Environment
+
+* [Notepad++](https://notepad-plus-plus.org/)
+* [VS Code](https://code.visualstudio.com/)
+* [VS Code Extension - Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+
+Open PowerShell as Administrator and run:
+
+```PowerShell
+choco install notepadplusplus -y
+https://chocolatey.org/packages/vscode -y
+choco install maven -y
+refreshenv
+```
+
 ## Design and Implement a Custom Producer App
 
 1. Plan and design a routine to create messages without user typing.
