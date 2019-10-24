@@ -18,7 +18,7 @@ Open PowerShell as Administrator and run:
 
 ```PowerShell
 choco install notepadplusplus -y
-https://chocolatey.org/packages/vscode -y
+choco install vscode -y
 refreshenv
 ```
 
