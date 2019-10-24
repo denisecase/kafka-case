@@ -90,11 +90,12 @@ Variable value: C:\apache-zookeeper-3.5.6-bin
 
 Your paths may be different - these are the ones on my machine:
 
+```Bash
 JAVA_HOME   C:\Program Files\OpenJDK\jdk-13.0.1
 KAFKA_HOME  C:\kafka_2.11-2.0.0
 M2_HOME     C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.2
-MAVEN_HOME  C:\apache-maven-3.6.0
 ZOOKEEPER_HOME C:\apache-zookeeper-3.5.6-bin
+```
 
 ## Update / Verify Path
 
