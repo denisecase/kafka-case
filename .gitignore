@@ -15,6 +15,7 @@ bin/
 .idea
 .settings/
 .classpath
+.factorypath
 .project
 
 #ignore twitter credentials file
