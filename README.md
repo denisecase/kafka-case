@@ -1,12 +1,21 @@
 # kafka-case
 
-Example kafka Producer and Consumer apps.
+Custom Kafka Producer and Consumer apps.
 
 Article: <https://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html>
 
 Source: <https://github.com/denisecase/kafka-api>
 
-Goal: Create a new CustomProducer to auto-generate and send at least 10 messages to the topic. You can create a random word generator, cycle through a list sending one message every second, or use Facebook or Twitter APIs to access live content. Experiment - the goal is to be comfortable adding external messaging to any Java app.
+Goal:
+
+* Create your own CustomConsumer.
+* Create your own CustomProducer to auto-generate and send at least 10 messages to a topic using the Twitter API.
+* Use a custom namespace to avoid naming conflicts with other "CustomProducer" classes.
+
+Alternate:
+
+* Use Facebook API, or create a random word generator, choose a random noun-verb-noun, or cycle through a list sending one message every second.
+* Experiment - the goal is to be comfortable adding external messaging to any Java app.
 
 ## Recommended Environment
 
@@ -14,38 +23,11 @@ Goal: Create a new CustomProducer to auto-generate and send at least 10 messages
 * [VS Code](https://code.visualstudio.com/)
 * [VS Code Extension - Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-Open PowerShell as Administrator and run:
+## Prerequisities
 
-```PowerShell
-choco install notepadplusplus -y
-choco install vscode -y
-refreshenv
-```
-
-## Design and Implement a Custom Producer App
-
-1. Plan and design a routine to create messages without user typing.
-You may use an array of messages, generate them randomly, or access a public API.
-If you want to test the CaseKafka example that accesses Twitter data, 
-you'll need to follow the Twitter guides below and create your custom
-src/main/resources/twitter4j.properties file. 
-
-2. Implement your Custom Producer app.
-
-3. Compile and build a new executable jar with maven using the mvn clean compile assembly:single command.
-
-4. Start your consumer using a custom java -cp command (short for 'classpath').
-
-5. Verify your messages are output by the Consumer.
-
-6. Create a professional README.md file to explain how to setup and run your project.
-
-7. Put your entire code solution in a repo and share a clickable link.
-
-## Install Prerequisities
-
+* Twitter Developer Account
 * OpenJDK or JDK (8 or up)
-* Maven
+* Apache Maven
 * Apache Zookeeper
 * Apache Kafka
 
@@ -55,12 +37,17 @@ Also:
 * Configure Zookeeper
 * Configure Kafka
 
-## Configure pom.xml
+## Complete your Project
 
 * Determine your namespace.
 * Follow the Maven standard project directory structure.
+* Use src\main\java for your code (with namespace folders)
+* Use src\main\resources for your proporties files.
 * Write your custom Kafka Producer in your namespace.
 * Write your custome Kafka Consumer in your namespace.
+* Add pom.xml
+* Add README.md
+* Add .gitignore
 
 ## Compile and Build a Fat Jar File
 
@@ -115,7 +102,7 @@ For help registering your Twitter API see this Tweepy article: <http://www.compj
 Register app:
 https://apps.twitter.com
 
-Developer Agreement: 
+Developer Agreement:
 https://developer.twitter.com/en/developer-terms/agreement-and-policy
 
 Twitter App Attributes Example:
@@ -125,10 +112,10 @@ Twitter App Attributes Example:
 * Website: https://bitbucket.org/professorcase/h08
 * Callback URL: (blank)
 
-## See also
-
-http://cloudurable.com/blog/kafka-tutorial-kafka-producer/index.html
-
 ## Reference
 
-See <https://bitbucket.org/professorcase/h07>.
+* Simple examples at <https://github.com/denisecase/kafka-api>
+
+## See also
+
+* <http://cloudurable.com/blog/kafka-tutorial-kafka-producer/index.html>
