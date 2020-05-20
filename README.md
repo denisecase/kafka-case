@@ -51,6 +51,8 @@ Also:
 
 Open PowerShell as Administrator in the root project folder, compile the code using Maven and create an executable jar file. Generated artificacts can be found in the new 'target' folder.
 
+Recommendation:  Run this command each time you make code changes. 
+
 ```PowerShell
 mvn clean compile assembly:single
 ```
