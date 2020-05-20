@@ -55,21 +55,13 @@ Open PowerShell as Administrator in the root project folder, compile the code us
 mvn clean compile assembly:single
 ```
 
-## 1 - Start Zookeeper Service
+## 1 - Run Zookeeper Service
 
 Start and keep running the Zookeeper service.
 
-```PowerShell
-zkserver
-```
+## 2 - Run Kafka Service
 
-## 2 - Start Kafka Service
-
-Start and keep running the Kafka service. What directory must you be in?
-
-```PowerShell
- .\kafka-server-start.bat .\server.properties
-```
+Start and keep running the Kafka service.
 
 ## 3 - Start Consumer
 
