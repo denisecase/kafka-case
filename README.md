@@ -2,9 +2,7 @@
 
 Custom Kafka Producer and Consumer apps.
 
-Article: <https://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html>
-
-Source: <https://github.com/denisecase/kafka-api>
+- Article: <https://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html>
 
 Goal:
 
@@ -97,25 +95,27 @@ Verify messages are output by the Consumer.
 
 See http://www.baeldung.com/twitter4j
 
-For help registering your Twitter API see this Tweepy article: <http://www.compjour.org/tutorials/getting-started-with-tweepy/>
+For help registering your Twitter API see this Tweepy article: 
+- <http://www.compjour.org/tutorials/getting-started-with-tweepy/>
 
 Register app:
-https://apps.twitter.com
+- https://apps.twitter.com
 
 Developer Agreement:
-https://developer.twitter.com/en/developer-terms/agreement-and-policy
+- https://developer.twitter.com/en/developer-terms/agreement-and-policy
 
 Twitter App Attributes Example:
 
-* Name: KafkaCaseCustomProducer
-* Description: Sample app to illustrate working with the Twitter API and using Kafka from a Java application
-* Website: https://bitbucket.org/professorcase/h08
-* Callback URL: (blank)
-
-## Reference
-
-* Simple examples at <https://github.com/denisecase/kafka-api>
+- Name: KafkaCaseCustomProducer
+- Description: Sample app to illustrate working with the Twitter API and using Kafka from a Java application
+- Website: https://bitbucket.org/professorcase/h08
+- Callback URL: (blank)
 
 ## See also
 
-* <http://cloudurable.com/blog/kafka-tutorial-kafka-producer/index.html>
+- Simple examples at <https://github.com/denisecase/kafka-api>
+- <http://cloudurable.com/blog/kafka-tutorial-kafka-producer/index.html>
+
+## Repository
+
+- Source: <https://github.com/denisecase/kafka-case>
